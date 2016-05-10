@@ -7,6 +7,7 @@ Create a simple mysql database
 CREATE DATABASE `mvc`;
 
 CREATE TABLE `post`(
+
             `id`int(2) not null ,
             
             `author` varchar(60) not null,
