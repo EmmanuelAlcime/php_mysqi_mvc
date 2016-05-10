@@ -6,9 +6,11 @@ A php mysqi mvc converted from pdo to mysqli
 │   ├── pages_controller.php
 
 │   └── posts_controller.php
+
 ├── functions
 
 │   └── connection.php
+
 
 ├── index.php
 
@@ -19,6 +21,8 @@ A php mysqi mvc converted from pdo to mysqli
 │   ├── post.php~
 
 │   └── post.php.save
+
+
 ├── README.md
 
 ├── routes.php
