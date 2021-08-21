@@ -9,7 +9,7 @@ class DB {
     private function __clone(){}
     public function getInstance(){
     	  if(!isset(self::$instance)){
-             self::$instance = new mysqli('localhost', 'root' , 'Emmanuel' ,'php_mvc');
+             self::$instance = new mysqli('localhost', 'root' , 'passwd' ,'php_mvc');
       }
         return self::$instance;
     }
